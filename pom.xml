@@ -16,25 +16,11 @@
 		<project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
 
-		<tool.proguard.version>6.3.0beta1</tool.proguard.version>
-
-		<ab-viewer-version>3.2</ab-viewer-version>
-
-		<pdfbox-jbig2-imageio-version>3.0.3</pdfbox-jbig2-imageio-version>
-		<twelvemonkeys-imageio-version>3.7.0</twelvemonkeys-imageio-version>
-
-		<jai-imageio-core-version>1.4.0</jai-imageio-core-version>
-		<jpeg2000-imageio-version>1.4.0</jpeg2000-imageio-version>
-
-		<pdfbox-version>2.0.22</pdfbox-version>
-		<pdfbox-fix1-version>2.0.24-fix1</pdfbox-fix1-version>
-
 		<org.slf4j-version>1.7.30</org.slf4j-version>
 		<logback-version>1.2.3</logback-version>
 
 		<timestamp>${maven.build.timestamp}</timestamp>
 		<maven.build.timestamp.format>yyyyMMddHHmm</maven.build.timestamp.format>
-
 	</properties>
 
 	<repositories>

@@ -28,49 +28,49 @@ package com.keeppy.controls;
  * Progress data class.
  */
 public class ProgressData implements Cloneable {
-	
-	int min;
-	int max;
-	int position;
-	
-	boolean started;
-	boolean completed;
-	
-	public ProgressData() {
-		min = 0;
-		max = 100;
-		position = 0;
-		started = false;
-		completed = false;
-	}
-	
-	@Override
-	protected ProgressData clone() throws RuntimeException {
-		ProgressData cloned = new ProgressData();
-		cloned.min = min;
-		cloned.max = max;
-		cloned.position = position;
-		cloned.started = started;
-		cloned.completed = completed;
-		return cloned;
-	}
+    
+    int min;
+    int max;
+    int position;
+    
+    boolean started;
+    boolean completed;
+    
+    public ProgressData() {
+        min = 0;
+        max = 100;
+        position = 0;
+        started = false;
+        completed = false;
+    }
+    
+    @Override
+    protected ProgressData clone() throws RuntimeException {
+        ProgressData cloned = new ProgressData();
+        cloned.min = min;
+        cloned.max = max;
+        cloned.position = position;
+        cloned.started = started;
+        cloned.completed = completed;
+        return cloned;
+    }
 
-	@Override
-	public String toString() {
-		StringBuilder builder = new StringBuilder();
-		builder.append("ProgressData [min=");
-		builder.append(min);
-		builder.append(", max=");
-		builder.append(max);
-		builder.append(", position=");
-		builder.append(position);
-		builder.append(", started=");
-		builder.append(started);
-		builder.append(", completed=");
-		builder.append(completed);
-		builder.append("]");
-		return builder.toString();
-	}
+    @Override
+    public String toString() {
+        StringBuilder builder = new StringBuilder();
+        builder.append("ProgressData [min=");
+        builder.append(min);
+        builder.append(", max=");
+        builder.append(max);
+        builder.append(", position=");
+        builder.append(position);
+        builder.append(", started=");
+        builder.append(started);
+        builder.append(", completed=");
+        builder.append(completed);
+        builder.append("]");
+        return builder.toString();
+    }
 
 
 }

@@ -28,22 +28,22 @@ package com.keeppy.controls;
  * ProgressBar callback class.
  */
 public abstract class SimpleProgressBarListener {
-	
-	private String className = SimpleProgressBarListener.class.getSimpleName();
-	
-	public SimpleProgressBarListener() {
-		
-	};
-	
-	public void started() {
-		System.out.format("# Started: %s@%s\n", className,  hashCode());				
-	}
-	
-	public void progress(ProgressData progressData) {
-		System.out.format("# Progress: %s@%s %s\n", className, hashCode(), progressData);				
-	}
-	
-	public void completed() {
-		System.out.format("# Completed: %s@%s\n", className,  hashCode());				
-	}
+    
+    private String className = SimpleProgressBarListener.class.getSimpleName();
+    
+    public SimpleProgressBarListener() {
+        
+    };
+    
+    public void started() {
+        System.out.format("# Started: %s@%s\n", className,  hashCode());                
+    }
+    
+    public void progress(ProgressData progressData) {
+        System.out.format("# Progress: %s@%s %s\n", className, hashCode(), progressData);                
+    }
+    
+    public void completed() {
+        System.out.format("# Completed: %s@%s\n", className,  hashCode());                
+    }
 }

@@ -28,8 +28,8 @@ package com.keeppy.controls;
  * ProgressBar types.
  */
 public enum SimpleProgressBarType {
-	
-	HORIZONTAL,
-	VERTICAL
-	
+    
+    HORIZONTAL,
+    VERTICAL
+    
 }

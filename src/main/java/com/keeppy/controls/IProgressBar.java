@@ -29,43 +29,43 @@ package com.keeppy.controls;
  */
 public interface IProgressBar {
 
-	/**
-	 * Set new position with the value.
-	 * 
-	 * @param position
-	 */
-	void setSelection(int position);	
-	
-	
-	/**
-	 * Retrieves current position.
-	 * 
-	 * @return
-	 */
-	int getSelection();
+    /**
+     * Set new position with the value.
+     * 
+     * @param position
+     */
+    void setSelection(int position);    
+    
+    
+    /**
+     * Retrieves current position.
+     * 
+     * @return
+     */
+    int getSelection();
 
-	/**
-	 * Resetting ProgressBar variables.
-	 */
-	void reset() ;
-	
-	/**
-	 * Increment (plus 1).
-	 */
-	void increment();
-	
-	/**
-	 * Increment by the parameter value. (+/-)
-	 * 
-	 * @param incValue
-	 */
-	void increment(int incValue);
-	
-	/**
-	 * Changes ProgressBar Color.
-	 * 
-	 * @param color
-	 */
-	void setBarColor(org.eclipse.swt.graphics.Color color);
+    /**
+     * Resetting ProgressBar variables.
+     */
+    void reset() ;
+    
+    /**
+     * Increment (plus 1).
+     */
+    void increment();
+    
+    /**
+     * Increment by the parameter value. (+/-)
+     * 
+     * @param incValue
+     */
+    void increment(int incValue);
+    
+    /**
+     * Changes ProgressBar Color.
+     * 
+     * @param color
+     */
+    void setBarColor(org.eclipse.swt.graphics.Color color);
 
 }
