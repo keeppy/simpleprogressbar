@@ -112,7 +112,6 @@ public class SimpleProgressBar extends Composite implements IProgressBar {
 
     private void repaint() {
         redraw();
-        update();
     }
 
     @Override
@@ -175,8 +174,6 @@ public class SimpleProgressBar extends Composite implements IProgressBar {
             pos = progressData.max;
         } else if (pos < progressData.min) {
             pos = progressData.min;
-        } else {
-            return;
         }
         progressData.position = pos;
         
