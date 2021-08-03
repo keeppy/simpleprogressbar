@@ -1,0 +1,98 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.keeppy</groupId>
+	<artifactId>simpleprogressbar</artifactId>
+	<version>1.0</version>
+
+	<properties>
+		<swt.groupId>org.eclipse</swt.groupId>
+		<swt.artifact>swt</swt.artifact>
+		<swt.version>4.6.1</swt.version>
+
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
+
+		<tool.proguard.version>6.3.0beta1</tool.proguard.version>
+
+		<ab-viewer-version>3.2</ab-viewer-version>
+
+		<pdfbox-jbig2-imageio-version>3.0.3</pdfbox-jbig2-imageio-version>
+		<twelvemonkeys-imageio-version>3.7.0</twelvemonkeys-imageio-version>
+
+		<jai-imageio-core-version>1.4.0</jai-imageio-core-version>
+		<jpeg2000-imageio-version>1.4.0</jpeg2000-imageio-version>
+
+		<pdfbox-version>2.0.22</pdfbox-version>
+		<pdfbox-fix1-version>2.0.24-fix1</pdfbox-fix1-version>
+
+		<org.slf4j-version>1.7.30</org.slf4j-version>
+		<logback-version>1.2.3</logback-version>
+
+		<timestamp>${maven.build.timestamp}</timestamp>
+		<maven.build.timestamp.format>yyyyMMddHHmm</maven.build.timestamp.format>
+
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>maven-eclipse-repo1</id>
+			<url>http://maven-eclipse.github.io/maven</url>
+		</repository>
+
+		<repository>
+			<id>swt-repo</id>
+			<url>https://github.com/maven-eclipse/swt-repo</url>
+		</repository>
+
+
+		<repository>
+			<id>maven-eclipse-repo2</id>
+			<url>http://maven-eclipse.github.io/maven</url>
+		</repository>
+
+		<repository>
+			<id>Jabylon-Plugin---</id>
+			<url>http://www.jabylon.org/maven/</url>
+		</repository>
+
+		<repository>
+			<id>maven-eclipse-repo-dev</id>
+			<url>https://github.com/maven-eclipse/dev-releases/tree/gh-pages/maven</url>
+		</repository>
+
+	</repositories>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.eclipse</groupId>
+			<artifactId>swt</artifactId>
+			<version>3.3.0-v3346</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.swt</groupId>
+			<artifactId>org.eclipse.swt.win32.win32.x86_64</artifactId>
+			<version>4.3</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.eclipse</groupId>
+			<artifactId>jface</artifactId>
+			<version>3.3.0-I20070606-0010</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.eclipse.ui</groupId>
+			<artifactId>workbench</artifactId>
+			<version>3.3.0-I20070608-1100</version>
+		</dependency>
+	</dependencies>
+
+</project>
